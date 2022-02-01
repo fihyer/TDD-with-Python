@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tdd"
+version = "0.1.0"
+description = ""
+authors = ["fihyer"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.1"
+pytest = "^6.2.5"
+selenium = "^4.1.0"
+webdriver-manager = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
